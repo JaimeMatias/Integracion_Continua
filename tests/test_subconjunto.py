@@ -1,6 +1,5 @@
-from Integracion_Continua.read import read_ar
-from Integracion_Continua.subconjunto import subconjuntoclase
-
+from read import read_ar
+from subconjunto import subconjuntoclase
 import unittest
 
 class TestStringMethods(unittest.TestCase):
