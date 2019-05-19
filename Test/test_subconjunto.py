@@ -1,4 +1,4 @@
-from read import read_ar
+from Read.read import read_ar
 from subconjunto import subconjuntoclase
 import unittest
 
