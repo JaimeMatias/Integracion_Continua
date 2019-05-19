@@ -4,3 +4,5 @@ install:
 
 script:
   - test_subconjunto.py
+deploy:
+  brach: master
