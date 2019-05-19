@@ -5,4 +5,7 @@ install:
 script:
   python test_subconjunto.py
 deploy:
-  brach: master
+  provider: heroku
+  api_key: bbb8987c-f102-406f-a0c3-30fd58ca9877
+  app: integracion-c-refactorware
+  on: deploy
