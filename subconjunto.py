@@ -17,6 +17,6 @@ def subconjuntoclase(datos):
             i = 0
             for pos in elements:
                 if pos == elem:
-                    valor[i] = valor[i] + 2
+                    valor[i] = valor[i] + 1
                 i = i + 1
     return elements, valor
