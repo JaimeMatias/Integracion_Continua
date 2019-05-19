@@ -1,5 +1,5 @@
-from Subconjunto.subconjunto import subconjuntoclase
-from Read.read import read_ar
+from subconjunto import subconjuntoclase
+from read import read_ar
 import unittest
 
 class  TestStringMethods(unittest.TestCase ):
