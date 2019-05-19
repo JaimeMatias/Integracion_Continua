@@ -9,5 +9,6 @@ class  TestStringMethods(unittest.TestCase ):
         valor= (['no', 'yes'], [6, 7])
         self.assertEqual(var, valor)
 
+print('el nombre es: ', __name__)
 if __name__ == '__main__':
     unittest.main()
